@@ -29,6 +29,7 @@ const VehicleList = () => {
         )}
       </ul>
       <button
+        className="reset-button"
         type="button"
         aria-label="Reset vehicle selection"
         title="Reset vehicle selection"
