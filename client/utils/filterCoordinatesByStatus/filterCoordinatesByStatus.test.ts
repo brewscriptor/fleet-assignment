@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { filterCoordinatesByStatus } from './filterCoordinatesByStatus';
-import type { Route } from '../../src/store/vehicleSlice';
+import type { Route } from '../../types/index';
 
 const mockData: Route[] = [
   { status: 'moving', coordinates: { lat: 25.128332138061523, lng: 55.375450134277344 } },
