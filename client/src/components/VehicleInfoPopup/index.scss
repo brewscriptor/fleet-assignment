@@ -1,0 +1,30 @@
+.popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #202020;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    max-width: 400px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    @media (max-width: 600px) {
+        top: 5px;
+        right: 5px;
+        padding: 8px;
+    }
+}
+
+.metrics {
+    display: flex;
+    gap: 10px;
+    &__item {
+        display: flex;
+        align-items: center;
+        background-color: #5e5959;
+        border-radius: 20px;
+        padding: 5px;
+    }
+}
