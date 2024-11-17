@@ -30,7 +30,7 @@ npm install
 
 ### 3. Configure Environment Variables
 
-Create a `.env` file in the root of the `client/` directory to specify the WebSocket server URL.
+Create a `.env` file in the root of the `client/` directory to specify the WebSocket server URL and Mapbox Access Token
 
 ```env
 # .env
