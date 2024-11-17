@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { getCoordinatesArray } from './getCoordinatesArray';
-import type { Route } from '../../src/store/vehicleSlice';
+import type { Route } from '../../types/index';
 
 const mockData: Route[] = [
   {
