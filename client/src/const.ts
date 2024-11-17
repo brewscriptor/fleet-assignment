@@ -1,0 +1,12 @@
+export const VEHICLES = [
+  'DXB-CX-36357',
+  'DXB-DX-36359',
+  'DXB-IX-36356',
+  'DXB-DX-36353',
+  'DXB-DX-36357',
+  'DXB-AX-36352',
+  'DXB-IX-36360',
+  'DXB-XX-36353',
+  'DXB-CX-36358',
+  'DXB-BX-36355',
+];
