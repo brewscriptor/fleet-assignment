@@ -1,0 +1,14 @@
+.app {
+    display: flex;
+    height: 100vh;
+
+    &__panel {
+        width: 300px;
+        padding: 16px;
+        background-color: #3d3b3b;
+    }
+
+    &__map {
+        flex-grow: 1;
+    }
+}
