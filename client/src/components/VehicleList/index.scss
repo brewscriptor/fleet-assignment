@@ -1,0 +1,23 @@
+.vehicle-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    color:#fff;
+
+    &__item {
+        cursor: pointer;
+        padding: 8px 12px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: rgb(150, 150, 255);
+        }
+
+        &--selected {
+            color: rgb(111, 111, 185);
+        }
+    }
+}
